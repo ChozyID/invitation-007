@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full" suppressHydrationWarning>
       <body
         className={cn(
           "min-h-full flex flex-col antialiased bg-midnight-background selection:bg-midnight-accent/30 selection:text-midnight-primary",
