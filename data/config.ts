@@ -23,31 +23,31 @@ export interface BankAccount {
 
 export const siteConfig = {
   meta: {
-    title: "The Wedding Of Raka & Andini",
+    title: "The Wedding Of Pria & Wanita",
     description: "Undangan Pernikahan Digital — Midnight Elegance",
     ogDescription:
       "Kami mengundang Anda untuk hadir merayakan momen sakral kami.",
   },
   branding: {
-    name: "Chozy Space",
+    name: "Chozy ID",
   },
   couple: {
     groom: {
-      name: "Raka",
-      fullName: "Raka Pratama",
+      name: "Pria",
+      fullName: "Pengantin Pria",
       title: "Putra Pertama",
-      fatherName: "Ahmad Santoso",
-      motherName: "Sri Wahyuni",
+      fatherName: "Bapak Pengantin Pria",
+      motherName: "Ibu Pengantin Pria",
     },
     bride: {
-      name: "Andini",
-      fullName: "Andini Putri",
+      name: "Wanita",
+      fullName: "Pengantin Wanita",
       title: "Putri Pertama",
-      fatherName: "Budi Hartono",
-      motherName: "Ratna Dewi",
+      fatherName: "Bapak Pengantin Wanita",
+      motherName: "Ibu Pengantin Wanita",
     },
-    initials: "R&A",
-    joinWord: "&", // "Raka & Andini" vs "Raka and Andini"
+    initials: "P&W",
+    joinWord: "&", // "Pria & Wanita" vs "Pria and Wanita"
   },
   event: {
     date: "2027-10-12T08:00:00+07:00", // ISO string for countdown
@@ -122,14 +122,14 @@ export const siteConfig = {
   gift: {
     accounts: [
       {
-        bank: "Bank Central Asia (BCA)",
+        bank: "Bank",
         accountNumber: "1234 5678 90",
-        accountHolder: "Raka Pratama",
+        accountHolder: "Pengantin Pria",
       },
       {
-        bank: "Bank Mandiri",
+        bank: "Bank",
         accountNumber: "0987 6543 21",
-        accountHolder: "Andini Putri",
+        accountHolder: "Pengantin Wanita",
       },
     ] as BankAccount[],
   },
